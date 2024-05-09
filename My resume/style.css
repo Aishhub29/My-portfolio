@@ -1,0 +1,56 @@
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.photo {
+   border-radius: 50%;
+}
+.container {
+   display: grid;
+   grid-template-columns: 200px 0.10fr 2fr ;
+   grid-template-rows: 50px 50px 100px 150px 120px 100px 1fr;
+   gap: 10px;
+   background-color: #dde9f1;
+   width: 80vw;
+   padding: 10%;
+   padding-top: 5%;
+}
+.title {
+   grid-column-start: 3;
+   grid-row-start: 1;
+}
+.subtitle {
+   grid-column: span 3 ;
+   grid-row-start: 2;
+   grid-column-start: 3;
+}
+.info {
+   grid-column-start: 3;
+}
+.language {
+   grid-row-start: 6;
+}
+.hobby {
+   grid-column: span  3;
+}
+.extra-skill {
+   grid-row-start: 7;
+}
+.CO {
+   grid-column-start: 3;
+}
+.education {
+   grid-column-start: 3;
+}
+.line {
+   grid-column-start: 2;
+   grid-row-start: 4;
+   grid-row-end: 8;
+}
+table {
+   width:600px;
+   height: 200px;
+   border-collapse: collapse;
+}

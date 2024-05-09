@@ -1,0 +1,30 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:30px
+}
+.photo1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.photo1:hover {
+    transform: scale(1.5);
+}
+.photo2 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    padding-top: 30px;
+}
+.photo2:hover {
+    transform: scale(1.5);
+}
