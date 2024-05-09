@@ -36,20 +36,20 @@ padding-top: 30px;
 }
 h1 {
     font-family: serif;
-    font-size: 100px;
+    font-size: 6rem;
     color: #022135;
     margin-bottom: 0;
     margin-top: 0;
 }
 h2 {
     font-family: sans-serif;
-    font-size: 40px;
+    font-size: 2rem;
     padding-top: 0;
     color: #022135;
 }
 p {
     font-family: serif;
-    font-size: 30px;
+    font-size: 2rem;
     color: #7bb;
 }
 .first {
@@ -74,10 +74,7 @@ p {
 .second:hover {
     background-color: #de0f3f;
 }
-.insta {
-    margin-left: 100px;
-    margin-right: 100px;
-}
+
 .photo {
     border: 10px solid #022135;
     border-radius: 50px;
