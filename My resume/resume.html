@@ -4,20 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <div class="container">
-     <div class="photo">
+  <div class="container-fluid main">
+
+    <div class="row">
+      <div class="col-6 photo">
            <img src="./aish.jpg" height="200" width="200" class="photo"/>
-     </div>
-     <div class="title">
-           <h1 style="color: #022135;">Aishwarya Shinde </h1>
-     </div>
-     <div class="subtitle">
+      </div>
+      <div class="col-6 title">
+           <h1 style="color: #022135; font-size: 3rem;">Aishwarya Shinde </h1>
            <h2>React JS Developer</h2>
-     </div>
-     <div class="info">
            <p>
              <a href="tel:123" >&#128222 Contact No.</a><br>
              <a href="mailto:example@gmail.com">&#128386  Email ID</a><br>
@@ -25,18 +24,24 @@
               <a href="./projects/projects.html">&#128187  My Projects</a>
             </p>
       </div>
-      <hr class="line">
-      <div class="address">
+    </div>
+
+    <div class="row">
+      <hr>
+      <div class="col-4 address">
              <h3>&#128205 Address </h3>
              <p>
                 Flat no.104,</br>ABC building,</br>xyz area,</br>Big city.</br> Pin code - 123456.
              </p>
       </div>
-      <div class="CO">
+      <div class="col-8 CO">
         <h3>Career Objective :</h3>
             <p>To work with best organisation where my knowledge will be at its best use and also I get to learn more in deapth about this field.<br>I want to excel my knowledge of this field in the best intrest of institute I work with. </p>
       </div>
-      <div class="Skill">
+    </div>
+
+    <div class="row">
+      <div class="col-4 Skill">
         <h3  style="background-color: #7bb7e0">Technical Skills </h3>
           <ul>
             <li>HTML</li>
@@ -44,13 +49,28 @@
             <li>JAVA</li>
             <li>React JS</li>
           </ul>
+     
+        <h3>Languages known </h3>
+        <ul>
+            <li>English</li>
+            <li>Hindi</li>
+            <li>Marathi</li>
+        </ul>
+        <h3 style="padding-top: 15px;">Extra-curricular Skills </h3>
+        <ul>
+          <li>Leadership</li>
+          <li>Team work</li>
+          <li>Hardworking</li>
+          <li>Addaptable</li>
+          <li>Quick learner</li>
+        </ul>
       </div>
-      <div class="education">
-              <table border="1" style="text-align: center;">
+      <div class="col-8 education">
+              <table border="2" style="text-align: center;">
                 <tr>
                   <th colspan="4"  style="background-color: #7bb7e0">EDUCATION</th>
                 </tr>
-                <tr>
+                <tr >
                   <th>Qualification</th>
                   <th>Institute</th>
                   <th>Percentage</th>
@@ -76,26 +96,11 @@
                 </tr>
               </table>
        </div>
-       <div class="language">
-        <h3>Languages known </h3>
-        <ul>
-            <li>English</li>
-            <li>Hindi</li>
-            <li>Marathi</li>
-        </ul>
-       </div>
-       <div class="extra-skill">
-               <h3>Extracaricullar Skill </h3>
-                  <ul>
-                    <li>Leadership</li>
-                    <li>Team work</li>
-                    <li>Hardworking</li>
-                    <li>Addaptable</li>
-                    <li>Quick learner</li>
-                  </ul>
-       </div>
-       <div class="hobby">
-               <h3>Hobbies </h3>
+    </div>
+
+    <div class="row">
+       <div class="col-12 hobby">
+                   <h3>Hobbies </h3>
                  <dl>
                     <dt>Reading :</dt>
                        <dd>Love both fictional and non-fictional type books.</dd>
@@ -105,8 +110,9 @@
                         <dd>I mean,who dosen't love nature?</dd>
                     <dt>Fashion :</dt>
                         <dd>I also have keen intrest in fashion and I enjoy making content related to same on my social media platform.</dd>
-                   </dl>
+                  </dl>
          </div>
+     </div>
     </div>
 </body>
 </html>
